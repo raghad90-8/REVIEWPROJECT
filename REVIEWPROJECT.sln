@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOCIALREVIEW", "SOCIALREVIEW", "{B20224A3-1990-43A1-9779-7A7BD6F45897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APPLICATIONLAYER", "APPLICATIONLAYER", "{FFCFB02C-A991-4B7F-83E2-364FD8EC756C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FRONTENDS", "FRONTENDS", "{1C437DDB-73A6-465D-B35F-98A0762F852D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SHAREDKERNAL", "SHAREDKERNAL", "{1AD14DD6-130D-480D-AD5B-4D29A9160FA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOCIAL.DOMAIN", "SOCIAL.DOMAIN\SOCIAL.DOMAIN.csproj", "{A7940FAB-C8B8-4B50-9623-0B3FC23FB78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONNECT.SHAREDKERNAL", "CONNECT.SHAREDKERNAL\CONNECT.SHAREDKERNAL.csproj", "{62C91767-24B2-4AA0-AF8C-753B114FF0CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7940FAB-C8B8-4B50-9623-0B3FC23FB78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7940FAB-C8B8-4B50-9623-0B3FC23FB78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7940FAB-C8B8-4B50-9623-0B3FC23FB78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7940FAB-C8B8-4B50-9623-0B3FC23FB78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C91767-24B2-4AA0-AF8C-753B114FF0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C91767-24B2-4AA0-AF8C-753B114FF0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C91767-24B2-4AA0-AF8C-753B114FF0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C91767-24B2-4AA0-AF8C-753B114FF0CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7940FAB-C8B8-4B50-9623-0B3FC23FB78C} = {B20224A3-1990-43A1-9779-7A7BD6F45897}
+		{62C91767-24B2-4AA0-AF8C-753B114FF0CF} = {1AD14DD6-130D-480D-AD5B-4D29A9160FA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA46A15-062C-4421-B390-F0ACF403BF39}
+	EndGlobalSection
+EndGlobal
