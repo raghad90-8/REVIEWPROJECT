@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SOCIAL.DOMAIN.TYPES
+namespace CONNECT.SHAREDKERNAL.TYPES
 {
     public abstract class ENTITY<TId> : IEquatable<ENTITY<TId>>
     {

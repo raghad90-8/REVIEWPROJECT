@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace SOCIAL.DOMAIN.TYPES
+namespace CONNECT.SHAREDKERNAL.TYPES
 {
     public abstract class VALUEOBJECTS : IEquatable<VALUEOBJECTS>
     {
